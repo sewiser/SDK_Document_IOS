@@ -18,12 +18,16 @@ Wiser Smart APP SDK provides the interface package for the communication with ha
 Add the following content in file `Podfile`:
 
 ```ruby
-  pod 'WiserSmartBaseKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.2'
-  pod 'WiserSmartUtil', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.2'
-  pod 'WiserSmartMQTTChannelKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.2'
-  pod 'WiserSmartSocketChannelKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.2'
-  pod 'WiserSmartActivatorKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.2'
-  pod 'WiserSmartDeviceKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.2'
+  pod 'WiserSmartBaseKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.3'
+  pod 'WiserSmartUtil', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.3'
+  pod 'WiserSmartMQTTChannelKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.3'
+  pod 'WiserSmartSocketChannelKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.3'
+  pod 'WiserSmartActivatorKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.3'
+  pod 'WiserSmartDeviceKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.3'
+  pod 'WiserSmartMessageKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.3'
+  pod 'WiserSmartSceneKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.3'
+  pod 'WiserSmartTimerKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.3'
+  pod 'WiserSmartFeedbackKit', :git => 'https://github.com/sewiser/WiserSDK_IOS.git', :tag => '3.14.3'
 ```
 
 Execute command `pod update` in the project's root directory to begin integration.

@@ -34,6 +34,14 @@
     * [Getting Shared Relationships](./resource/Share.md#getting-shared-relationships)
     * [Remove Sharing](./resource/Share.md#remove-sharing)
     * [Modify Note Name](./resource/Share.md#modify-note-name)
+* [Timer task](./resource/Timer.md)
 * [Group management](./resource/Group.md)
+* Smart scene
+    - [Smart scene](./resource/SmartScene.md#smart-scene)
+    - [Scene operation](./resource/SmartScene.md#scene-operation)
 * [Data channel](./resource/DataChannel.md)
+* Message center
+    * [Message list](./resource/Message.md#obtain-message-list)
+    * [Message push settings](./resource/Message.md#message-push-settings)
+* [Feedback](./resource/Feedback.md)
 
