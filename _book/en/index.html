@@ -569,20 +569,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="resource/Timer.html">
-            
-                <a href="resource/Timer.html">
-            
-                    
-                    Timer task
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.10" data-path="resource/Group.html">
+        <li class="chapter " data-level="1.9" data-path="resource/Group.html">
             
                 <a href="resource/Group.html">
             
@@ -595,115 +582,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.11" >
-            
-                <span>
-            
-                    
-                    Smart scene
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.11.1" data-path="resource/SmartScene.html">
-            
-                <a href="resource/SmartScene.html#smart-scene">
-            
-                    
-                    Smart scene
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.11.2" data-path="resource/SmartScene.html">
-            
-                <a href="resource/SmartScene.html#scene-operation">
-            
-                    
-                    Scene operation
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.12" data-path="resource/DataChannel.html">
+        <li class="chapter " data-level="1.10" data-path="resource/DataChannel.html">
             
                 <a href="resource/DataChannel.html">
             
                     
                     Data channel
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.13" >
-            
-                <span>
-            
-                    
-                    Message center
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.13.1" data-path="resource/Message.html">
-            
-                <a href="resource/Message.html#obtain-message-list">
-            
-                    
-                    Message list
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.13.2" data-path="resource/Message.html">
-            
-                <a href="resource/Message.html#message-push-settings">
-            
-                    
-                    Message push settings
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.14" data-path="resource/Feedback.html">
-            
-                <a href="resource/Feedback.html">
-            
-                    
-                    Feedback
             
                 </a>
             
@@ -768,16 +652,18 @@
 <h2 id="fast-integration"><a name="fast-integration" class="plugin-anchor" href="#fast-integration"><i class="fa fa-link" aria-hidden="true"></i></a>Fast Integration</h2>
 <h3 id="using-cocoapods"><a name="using-cocoapods" class="plugin-anchor" href="#using-cocoapods"><i class="fa fa-link" aria-hidden="true"></i></a>Using CocoaPods</h3>
 <p>Add the following content in file <code>Podfile</code>:</p>
-<pre class="language-"><code class="lang-ruby">  pod <span class="token string">&apos;WiserSmartBaseKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.14.3&apos;</span>
-  pod <span class="token string">&apos;WiserSmartUtil&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.14.3&apos;</span>
-  pod <span class="token string">&apos;WiserSmartMQTTChannelKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.14.3&apos;</span>
-  pod <span class="token string">&apos;WiserSmartSocketChannelKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.14.3&apos;</span>
-  pod <span class="token string">&apos;WiserSmartActivatorKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.14.3&apos;</span>
-  pod <span class="token string">&apos;WiserSmartDeviceKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.14.3&apos;</span>
-  pod <span class="token string">&apos;WiserSmartMessageKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.14.3&apos;</span>
-  pod <span class="token string">&apos;WiserSmartSceneKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.14.3&apos;</span>
-  pod <span class="token string">&apos;WiserSmartTimerKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.14.3&apos;</span>
-  pod <span class="token string">&apos;WiserSmartFeedbackKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.14.3&apos;</span>
+<pre class="language-"><code class="lang-ruby">  pod <span class="token string">&apos;WiserSmartBaseKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartUtil&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartActivatorCoreKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartActivatorKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartDeviceCoreKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartDeviceKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartFeedbackKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartMessageKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartMQTTChannelKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartSocketChannelKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartSceneKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
+  pod <span class="token string">&apos;WiserSmartTimerKit&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:git</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;https://github.com/sewiser/WiserSDK_IOS.git&apos;</span><span class="token punctuation">,</span> <span class="token symbol">:tag</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">&apos;3.26.5&apos;</span>
 </code></pre>
 <p>Execute command <code>pod update</code> in the project&apos;s root directory to begin integration.</p>
 <p>For the instructions of CocoaPods, please refer to: <a href="https://guides.cocoapods.org/" target="_blank">CocoaPods Guides</a></p>
@@ -858,7 +744,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Function Overview","level":"1.2","depth":1,"path":"resource/Overview.md","ref":"./resource/Overview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["js-sequence-diagram-full@>=0.3.1","prism","-highlight","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-okaidia.css"],"lang":{"oc":"objectivec","objc":"objectivec","objective-c":"objectivec"},"ignore":["sequence"]},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"js-sequence-diagram-full":{},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"README.md","mtime":"2020-06-24T10:03:29.319Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-24T09:39:06.467Z"},"basePath":".","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"Function Overview","level":"1.2","depth":1,"path":"resource/Overview.md","ref":"./resource/Overview.md","articles":[]},"dir":"ltr"},"config":{"plugins":["js-sequence-diagram-full@>=0.3.1","prism","-highlight","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-okaidia.css"],"lang":{"oc":"objectivec","objc":"objectivec","objective-c":"objectivec"},"ignore":["sequence"]},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"js-sequence-diagram-full":{},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"README.md","mtime":"2022-03-25T08:05:25.010Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-25T08:08:39.003Z"},"basePath":".","book":{"language":"en"}});
         });
     </script>
 </div>

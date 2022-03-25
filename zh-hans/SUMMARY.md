@@ -35,17 +35,9 @@
   - [分享关系获取](./resource/Share.md#分享关系获取)
   - [移除共享](./resource/Share.md#移除共享)
   - [修改备注名](./resource/Share.md#修改备注名)
-* [定时任务](./resource/Timer.md)
 * [群组管理](./resource/Group.md)
-* 智能场景
-  - [智能场景](./resource/SmartScene.md#智能场景)
-  - [单个场景操作](./resource/SmartScene.md#单个场景操作)
 * [数据流通道](./resource/DataChannel.md)
-* 消息中心
-  * [消息列表](./resource/Message.md#获取消息列表)
-  * [消息推送设置](./resource/Message.md#消息推送设置)
 * [配置Widget工程](./resource/Widget.md)
 * [标准功能集](./resource/StandardDpCode.md)
-* [意见反馈](./resource/Feedback.md)
 
 
