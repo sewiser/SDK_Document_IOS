@@ -34,6 +34,7 @@
     * [Getting Shared Relationships](./resource/Share.md#getting-shared-relationships)
     * [Remove Sharing](./resource/Share.md#remove-sharing)
     * [Modify Note Name](./resource/Share.md#modify-note-name)
+* [Smart Scene](./resource/SmartScene.md)
 * [Group management](./resource/Group.md)
 * [Data channel](./resource/DataChannel.md)
 

@@ -35,6 +35,7 @@
   - [分享关系获取](./resource/Share.md#分享关系获取)
   - [移除共享](./resource/Share.md#移除共享)
   - [修改备注名](./resource/Share.md#修改备注名)
+* [智能场景](./resource/SmartScene.md)
 * [群组管理](./resource/Group.md)
 * [数据流通道](./resource/DataChannel.md)
 * [配置Widget工程](./resource/Widget.md)
